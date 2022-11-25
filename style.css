@@ -78,9 +78,16 @@ html {
 
 .paper {
     padding: 50px;
+    padding-top: 25px;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 50px;
+ }
+ .paper::-webkit-scrollbar {
+    width: 5px;
+ }
+ .paperContainer::-webkit-scrollbar {
+    width: 5px;
  }
 
 .logo {
